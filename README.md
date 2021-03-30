@@ -7,7 +7,7 @@ This repo is very tame and does not hide any secret whatsoever.
 # Contributors
 
 - Daniel Mateos
-
+- Someone anonymous
 
 # Libraries needed
 
