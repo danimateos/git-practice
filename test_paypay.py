@@ -1,4 +1,5 @@
 import paypay
+import pytest
 
 def test_iseven():
     assert not paypay.iseven(1)
@@ -10,3 +11,12 @@ def test_iseven():
 
 def test_sqrt():
     assert abs(paypay.sqrt(9**2, 1e-3) - 9) < 1e-3
+
+
+@pytest.mark.parametrize('word, palindrome', [('holi', False),
+                                              ('Python', False),
+                                              ('dabalearrozalazorraelabad', True),
+                                              ('dabale arroz a la zorra el abad', False),
+                                              ('Bob', True)])
+def test_ispalindrome(word, palindrome):
+    assert paypay.ispalindrome(word) == palindrome
