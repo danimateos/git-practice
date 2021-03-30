@@ -6,9 +6,10 @@ This repo is very tame and does not hide any secret whatsoever.
 
 # Contributors
 
-- Daniel Mateos
+- Ignacio Basagoiti
 
 
 # Libraries needed
 
 - pytest
+- libreria inventada nacho
